@@ -1,0 +1,43 @@
+{
+  "header": {
+    "title": "Calculateur de Coûts de Certification",
+    "subtitle": "Estimez votre investissement pour la certification de sécurité alimentaire"
+  },
+  "intro": {
+    "text": "Ajustez chaque composante de coût ci-dessous pour correspondre à votre situation. Le calculateur affichera l'investissement total requis et vous aidera à comprendre le coût réel de la certification."
+  },
+  "stages": {
+    "gapAnalysis": "Analyse des Écarts",
+    "documentation": "Développement de la Documentation",
+    "training": "Formation du Personnel",
+    "testing": "Tests en Laboratoire",
+    "upgrades": "Mise à Niveau des Installations",
+    "consultant": "Support de Consultant",
+    "audit": "Audit de Certification",
+    "travel": "Voyage et Logistique"
+  },
+  "results": {
+    "title": "Vos Coûts Estimés",
+    "year1": "Investissement Total Année 1",
+    "renewal": "Renouvellement Annuel (estimé)"
+  },
+  "comparison": {
+    "title": "Comparer à Votre Entreprise",
+    "placeholder": "Entrez votre profit annuel ($)",
+    "button": "Calculer",
+    "result": "Les coûts de certification représentent ",
+    "ofProfit": "de votre profit annuel",
+    "impossible": "IMPOSSIBLE - La certification dépasse votre profit annuel",
+    "veryDifficult": "TRÈS DIFFICILE - Considérez une approche progressive ou des subventions",
+    "difficult": "DIFFICILE MAIS FAISABLE - Nécessite une planification financière minutieuse",
+    "feasible": "FAISABLE - Dans une fourchette d'investissement raisonnable"
+  },
+  "actions": {
+    "download": "Télécharger les Résultats (PDF)",
+    "reset": "Réinitialiser le Calculateur"
+  },
+  "footer": {
+    "organization": "African Food Industry | Industrie Alimentaire Africaine",
+    "disclaimer": "Ce calculateur fournit uniquement des estimations. Les coûts réels de certification peuvent varier en fonction de votre situation spécifique, de votre emplacement et de l'organisme de certification choisi."
+  }
+}

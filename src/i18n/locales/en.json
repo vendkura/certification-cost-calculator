@@ -1,0 +1,43 @@
+{
+  "header": {
+    "title": "Certification Cost Calculator",
+    "subtitle": "Estimate your food safety certification investment"
+  },
+  "intro": {
+    "text": "Adjust each cost component below to match your situation. The calculator will show your total investment required and help you understand what certification really costs."
+  },
+  "stages": {
+    "gapAnalysis": "Gap Analysis",
+    "documentation": "Documentation Development",
+    "training": "Staff Training",
+    "testing": "Laboratory Testing",
+    "upgrades": "Facility Upgrades",
+    "consultant": "Consultant Support",
+    "audit": "Certification Audit",
+    "travel": "Travel & Logistics"
+  },
+  "results": {
+    "title": "Your Estimated Costs",
+    "year1": "Year 1 Total Investment",
+    "renewal": "Annual Renewal (estimated)"
+  },
+  "comparison": {
+    "title": "Compare to Your Business",
+    "placeholder": "Enter your annual profit ($)",
+    "button": "Calculate",
+    "result": "Certification costs represent",
+    "ofProfit": "of your annual profit",
+    "impossible": "IMPOSSIBLE - Certification exceeds your annual profit",
+    "veryDifficult": "VERY CHALLENGING - Consider phased approach or subsidies",
+    "difficult": "DIFFICULT BUT FEASIBLE - Requires careful financial planning",
+    "feasible": "FEASIBLE - Within reasonable investment range"
+  },
+  "actions": {
+    "download": "Download Results (PDF)",
+    "reset": "Reset Calculator"
+  },
+  "footer": {
+    "organization": "African Food Industry | Industrie Alimentaire Africaine",
+    "disclaimer": "This calculator provides estimates only. Actual certification costs may vary based on your specific situation, location, and certification body chosen."
+  }
+}
