@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { trackCalculation } from '../utils/analytics'
 import LanguageSwitcher from './LanguageSwitcher.vue'
 
 const { t } = useI18n()
@@ -66,6 +67,9 @@ const calculateComparison = () => {
     statusClass.value = 'bg-green-100 text-green-800'
     statusText.value = '✓ ' + t('comparison.feasible')
   }
+
+  // Track the calculation event
+  trackCalculation(totalYear1.value, profitInput.value, percentage.value)
 
   showComparisonResult.value = true
 }

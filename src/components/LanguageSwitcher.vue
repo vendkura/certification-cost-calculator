@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
+import { trackLanguageChange } from '../utils/analytics'
 
 const { locale } = useI18n()
 
 const switchLanguage = (lang: string) => {
   locale.value = lang
   localStorage.setItem('locale', lang)
+  trackLanguageChange(lang)
 }
 </script>
 
